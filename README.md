@@ -1,14 +1,19 @@
 # Image-Classification-using-VGG16
 The goal was to classify images into respective classes. We have considered images of Airplanes, Bikes, Human faces and Cars as our classes 
 
+# Image Dataset
+The Image dataset hasbeen classified into training and testing data in the "Images" folder for different classes.
+
+# General Working
 VGG16 was the feature extractor used with top 3 layers removed.
 1)	The dimensions of feature vector were (7, 7, 512) obtained from block_5 pooling layer of VGG16, which was later flattened.
 2)	KMeans clustering was used for image prediction.
 3)	The input to the Kmeans algorithm given was such that first few(in our case it was 30) images belong to same class of images(say airplanes), then the other class of images were given sequentially and the mode of the output data from KMeans algorithm was taken for particular interval(in our case, it was 30) and defined to be the class identity for the given class.
 4)	The file path was used for identifying the image contents for comparison of the prediction by algorithm.
 For instance, images of airplanes were stored in “Images/airplanes_test/img0xx.jpg”
-The string “airplanes” present in the file path was used as a justification that the image is of airplane.
+The string “airplanes” present in the file path was used as a justification that the image is of airplane.<br />
 
+# **_Following is the result:_**<br />
 Model: "vgg16"
 
 | Layer(Type)               |      Output Shape       | Param #   |
