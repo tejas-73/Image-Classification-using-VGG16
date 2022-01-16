@@ -10,9 +10,7 @@ For instance, images of airplanes were stored in “Images/airplanes_test/img0xx
 The string “airplanes” present in the file path was used as a justification that the image is of airplane.
 
 Model: "vgg16"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
+     Layer(Type)                Output Shape         Param #
  input_1 (InputLayer)        [(None, 224, 224, 3)]     0         
                                                                  
  block1_conv1 (Conv2D)       (None, 224, 224, 64)      1792      
