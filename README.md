@@ -9,26 +9,6 @@ VGG16 was the feature extractor used with top 3 layers removed.
 For instance, images of airplanes were stored in “Images/airplanes_test/img0xx.jpg”
 The string “airplanes” present in the file path was used as a justification that the image is of airplane.
 
-
-#Results
-Note that these were the results obtained for my machine. It could be different for you.
-
-Following is the output:
-"D:\Python Projects\venv\Scripts\python.exe" "D:/Python Projects/DIP Assignment 5/Question1.py"
-2021-11-29 20:44:11.508323: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2021-11-29 20:44:11.508588: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2021-11-29 20:44:15.997245: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2021-11-29 20:44:15.997619: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
-2021-11-29 20:44:15.997969: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
-2021-11-29 20:44:15.998328: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found
-2021-11-29 20:44:15.998688: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found
-2021-11-29 20:44:15.999048: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusolver64_11.dll'; dlerror: cusolver64_11.dll not found
-2021-11-29 20:44:15.999387: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
-2021-11-29 20:44:15.999724: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
-2021-11-29 20:44:15.999832: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
-Skipping registering GPU devices...
-2021-11-29 20:44:16.000317: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
-To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 Model: "vgg16"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
