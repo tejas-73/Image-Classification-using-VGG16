@@ -2,7 +2,7 @@
 The goal was to classify images into respective classes. We have considered images of Airplanes, Bikes, Human faces and Cars as our classes 
 
 # Image Dataset
-The Image dataset hasbeen classified into training and testing data in the "Images" folder for different classes.
+The Image dataset has been classified into training and testing data in the "Images" folder for different classes.
 
 # General Working
 VGG16 was the feature extractor used with top 3 layers removed.
