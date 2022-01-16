@@ -10,7 +10,8 @@ For instance, images of airplanes were stored in “Images/airplanes_test/img0xx
 The string “airplanes” present in the file path was used as a justification that the image is of airplane.
 
 
-# Note that these were the results obtained for my machine. It could be different for you.
+#Results
+Note that these were the results obtained for my machine. It could be different for you.
 
 Following is the output:
 "D:\Python Projects\venv\Scripts\python.exe" "D:/Python Projects/DIP Assignment 5/Question1.py"
